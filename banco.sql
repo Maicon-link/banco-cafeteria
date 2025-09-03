@@ -17,13 +17,13 @@ CREATE TABLE Pedidos (
 INSERT INTO Produtos (nome, preco) VALUES
 ('Café Expresso', 8.90),
 ('Cappuccino', 13.90),
-('Pão de Queijo', 5.90)
-('Café com leite', 10.90)
-('Omelete', 8.00)
-('Chocolate quente', 12.90)
-('Misto quente', 13.90)
-('Queijo quente', 14.90)
-('Pão de queijo recheado', 9.00)
+('Pão de Queijo', 5.90),
+('Café com leite', 10.90),
+('Omelete', 8.00),
+('Chocolate quente', 12.90),
+('Misto quente', 13.90),
+('Queijo quente', 14.90),
+('Pão de queijo recheado', 9.00),
 ('Suco de laranja', 9.00);
 
 
