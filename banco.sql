@@ -32,10 +32,10 @@ INSERT INTO Pedidos (produto_id, quantidade, data_pedido) VALUES
 (1, 2, '25/09/2025'), -- 2 cafés expressos
 (2, 1, '25/09/2025'), -- 1 cappuccino
 (3, 3, '25/09/2025'), -- 3 pães de queijo
-(4, 2, '25/09/2025'), 
-(5, 3, '25/09/2025'), 
-(6, 1, '25/09/2025'), 
-(7, 2, '25/09/2025'),
-(8, 4, '25/09/2025'),
-(9, 3, '25/09/2025'),
-(10, 1, '25/09/2025'); 
+(4, 2, '25/09/2025'), -- 2 cafés com leite
+(5, 3, '25/09/2025'), -- 3 omeletes
+(6, 1, '25/09/2025'), -- 1 chocolate quente
+(7, 2, '25/09/2025'), -- 2 misto quente
+(8, 4, '25/09/2025'), -- 4 queijo quente
+(9, 3, '25/09/2025'), -- 3 pães de quejio recheados
+(10, 1, '25/09/2025'); -- 1 suco de laranja
