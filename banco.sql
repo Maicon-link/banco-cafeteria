@@ -4,6 +4,18 @@ CREATE TABLE Produtos (
     preco REAL NOT NULL
 );
 
+INSERT INTO Produtos (nome, preco) VALUES
+('Café Expresso', 8.90),
+('Cappuccino', 13.90),
+('Pão de Queijo', 5.90),
+('Café com leite', 10.90),
+('Omelete', 8.00),
+('Chocolate quente', 12.90),
+('Misto quente', 13.90),
+('Queijo quente', 14.90),
+('Pão de queijo recheado', 9.00),
+('Suco de laranja', 9.00);
+
 
 CREATE TABLE Pedidos (
     id INTEGER PRIMARY KEY,
@@ -24,6 +36,8 @@ CREATE TABLE ItensPedido (
     FOREIGN KEY (pedido_id) REFERENCES Pedidos(id),
     FOREIGN KEY (produto_id) REFERENCES Produtos(id)
 );
+
+
 
 -- Pedido 1
 INSERT INTO ItensPedido (pedido_id, produto_id, quantidade) VALUES
