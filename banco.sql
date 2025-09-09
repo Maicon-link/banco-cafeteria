@@ -1,6 +1,6 @@
 CREATE TABLE Produtos (
     id INTEGER PRIMARY KEY,
-    nome TEXT NOT NULL,
+    nome TEXT NOT NULL UNIQUE,
     preco REAL NOT NULL
 );
 
